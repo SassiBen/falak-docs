@@ -1,0 +1,23 @@
+services:
+  ollama:
+    image: ollama/ollama:0.12.6
+    volumes:
+      - ollama:/root/.ollama
+
+  api:
+    build: .
+    depends_on: [ollama]
+    environment:
+      - OLLAMA_URL=http://ollama:11434
+      - FALAKDOCS_PROVIDER=${FALAKDOCS_PROVIDER:-ollama}
+      - FALAKDOCS_API_KEY=${FALAKDOCS_API_KEY:?définir FALAKDOCS_API_KEY dans .env}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}
+    volumes:
+      - index:/data
+      - ./corpus:/corpus:ro
+    ports:
+      - "127.0.0.1:8002:8002"
+
+volumes:
+  ollama:
+  index:
