@@ -1,0 +1,14 @@
+{"question": "Sous combien de jours faut-il confirmer des réserves après une avarie ?", "source": "conditions-generales-transport.md", "must_include": ["3 jours"]}
+{"question": "Quelle est l'indemnisation maximale par colis en messagerie ?", "source": "conditions-generales-transport.md", "must_include": ["750"]}
+{"question": "Quel est le délai de livraison pour la Corse ?", "source": "conditions-generales-transport.md", "must_include": ["J+4"]}
+{"question": "Quelle vitesse maximale pour un chariot élévateur dans l'entrepôt ?", "source": "procedure-securite-entrepot.md", "must_include": ["6 km/h"]}
+{"question": "Quels équipements de protection sont obligatoires sur les quais ?", "source": "procedure-securite-entrepot.md", "must_include": ["chaussures"]}
+{"question": "Que faire en cas de fuite d'un produit dangereux ?", "source": "procedure-securite-entrepot.md", "must_include": ["absorbant"]}
+{"question": "À quelle heure ouvre le restaurant d'entreprise ?", "source": "guide-accueil-salarie.md", "must_include": ["11 h 30"]}
+{"question": "Que faire si je perds mon badge ?", "source": "guide-accueil-salarie.md", "must_include": ["accueil"]}
+{"question": "Combien de caractères doit faire un mot de passe ?", "source": "charte-informatique.pdf", "must_include": ["12"]}
+{"question": "Puis-je utiliser une clé USB personnelle sur mon poste ?", "source": "charte-informatique.pdf", "must_include": ["interdit"]}
+{"question": "Quelle part du carburant consommé est du B100 ?", "source": "rapport-rse-2025.html", "must_include": ["18"]}
+{"question": "Combien de véhicules sont aux normes Euro VI ?", "source": "rapport-rse-2025.html", "must_include": ["92"]}
+{"question": "Quel est le cours de l'action Delorme en bourse ?", "source": null}
+{"question": "Qui a gagné la Coupe du monde de football 2018 ?", "source": null}
